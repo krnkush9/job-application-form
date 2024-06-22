@@ -88,7 +88,7 @@ function Form() {
         <div className="lg:w-[60%] md:w-[60%] w-full shadow-lg mx-auto">
             {/* heading */}
             <p className="text-center my-3 font-bold text-2xl">
-                Event Registration Form
+                Job Application Form
             </p>
 
             {/* ternary operator for tracking, data will display or not. 
@@ -197,7 +197,7 @@ display otherwise form will display*/}
                             {/* date and picker */}
                             <div className="flex gap-x-4 flex-col lg:flex-row md-flex-row">
                                 <p className="text-lg mb-2">Preferred Interview Time: </p>
-                                <DateTimePicker required value={dateTime} onChange={(value) => setDateTime(value)} className="rounded-md" />
+                                <DateTimePicker required value={dateTime} onChange={(value) => setDateTime(value)} />
                             </div>
 
                             {/* submit button */}
